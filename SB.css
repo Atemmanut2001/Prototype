@@ -5,6 +5,13 @@ body {
     background-color: #f0f0f0;
 }
 
+/* For index.html specific background */
+body.index {
+    background: url('Pinkg.jpeg') repeat;
+    background-size: cover; /* Ensure the background covers the entire screen */
+    background-attachment: fixed; /* Fix the background to maintain its position during scrolling */
+}
+
 .container {
     max-width: 600px;
     margin: 50px auto;
@@ -49,12 +56,14 @@ button.redirecting {
     background-color: #ccc; /* Change button color */
 }
 
-/* Additional styles for index.html background */
-body {
-    background: url('Pinkg.jpeg') repeat;
-    background-size: cover; /* Ensure the background covers the entire screen */
-    background-attachment: fixed; /* Fix the background to maintain its position during scrolling */
-    color: #000; /* Set text color to black for better visibility */
+/* Styles for the image */
+.birthday-image {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 20px auto; /* Center the image */
+    border-radius: 10px; /* Optional: add rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: add a subtle shadow */
 }
 
 .centered-text {
@@ -62,3 +71,4 @@ body {
     font-size: 3em; /* Larger font size */
     color: #000; /* Black color */
 }
+
