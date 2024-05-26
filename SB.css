@@ -7,14 +7,10 @@ body {
 
 .container {
     max-width: 600px;
-    margin: 0 auto; /* Center the container horizontally */
+    margin: 50px auto;
     padding: 20px;
     border-radius: 0 0 10px rgba(0, 0, 0, 0.1);
     text-align: center; /* Center the content */
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between; /* Space between heading and button */
-    height: 100vh; /* Set container height to viewport height */
 }
 
 h1 {
@@ -24,8 +20,7 @@ h1 {
 }
 
 .image-container {
-    margin-top: auto; /* Push the image to the bottom */
-    margin-bottom: 5vh; /* Reduce margin between image and heading */
+    margin-bottom: 10px; /* Reduce margin between image and button */
 }
 
 img {
@@ -33,16 +28,6 @@ img {
     max-height: 40vh; /* Limit image height */
     display: block; /* Center the image horizontally */
     margin: 0 auto; /* Center the image horizontally */
-}
-
-p {
-    color: #000; /* Set text color to black */
-}
-
-input[type="text"] {
-    width: calc(80%); /* Set width to 80% */
-    padding: 10px;
-    margin-bottom: 10px;
 }
 
 button {
@@ -66,7 +51,7 @@ button.redirecting {
 
 /* Additional styles for index.html background */
 body {
-    background: url('Pinkg.jpeg') repeat;
+    background: url('Helmet.jpg') repeat;
     background-size: cover; /* Ensure the background covers the entire screen */
     background-attachment: fixed; /* Fix the background to maintain its position during scrolling */
     color: #000; /* Set text color to black for better visibility */
