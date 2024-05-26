@@ -11,6 +11,10 @@ body {
     padding: 20px;
     border-radius: 0 0 10px rgba(0, 0, 0, 0.1);
     text-align: center; /* Center the content */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Space between heading and button */
+    height: 100vh; /* Set container height to viewport height */
 }
 
 h1 {
@@ -19,14 +23,20 @@ h1 {
     margin-bottom: 20px; /* Add space below the heading */
 }
 
-p {
-    color: #000; /* Set text color to black */
-    font-size: 1.2em; /* Adjust text size */
-    margin-bottom: 10px; /* Add space below paragraphs */
+.image-container {
+    margin-top: auto; /* Push the image to the bottom */
+    margin-bottom: auto; /* Push the image to the top */
+}
+
+img {
+    max-width: 100%; /* Ensure image does not exceed container width */
+    max-height: 50vh; /* Limit image height */
+    display: block; /* Center the image horizontally */
+    margin: 0 auto; /* Center the image horizontally */
 }
 
 input[type="text"] {
-    width: calc(80%);
+    width: calc(80%); /* Set width to 80% */
     padding: 10px;
     margin-bottom: 10px;
 }
@@ -45,6 +55,11 @@ button:hover {
     cursor: pointer; /* Add cursor pointer on hover */
 }
 
+/* Add styles for the redirecting state */
+button.redirecting {
+    background-color: #ccc; /* Change button color */
+}
+
 /* Additional styles for index.html background */
 body {
     background: url('Pinkg.jpeg') repeat;
@@ -53,20 +68,4 @@ body {
     color: #000; /* Set text color to black for better visibility */
 }
 
-/* Adjustments for smaller screens */
-@media only screen and (max-width: 600px) {
-    .container {
-        padding: 10px;
-    }
-    
-    h1 {
-        font-size: 2.5em;
-        margin-bottom: 10px;
-    }
-    
-    p {
-        font-size: 1em;
-        margin-bottom: 5px;
-    }
-}
 
