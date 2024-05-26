@@ -3,14 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SB</title>
+    <title>SB - Index</title>
     <link rel="stylesheet" href="SB.css">
+    <style>
+        /* Additional styles for index.html background */
+        body {
+            background: url('Pinkg.jpeg') repeat;
+            background-size: cover; /* Ensure the background covers the entire screen */
+            background-attachment: fixed; /* Fix the background to maintain its position during scrolling */
+            color: #000; /* Set text color to black for better visibility */
+        }
+    </style>
 </head>
 <body>
     <div class="container">
-        <h1 class="centered-text">Hey Birthday Girl ;)</h1>
-        <button onclick="window.location.href='Nya.html'">Start the Riddle</button>
+        <h1>Hey Birthday Girl ;)</h1>
+        <button onclick="redirectToNya()">Start the Riddle</button>
     </div>
+
+    <script src="SB.js"></script>
+    <script>
+        function redirectToNya() {
+            window.location.href = "Nya.html";
+        }
+    </script>
 </body>
 </html>
 
