@@ -5,19 +5,10 @@ body {
     background-color: #f0f0f0;
 }
 
-/* For index.html specific background */
-body.index {
-    background: url('Pinkg.jpeg') repeat;
-    background-size: cover; /* Ensure the background covers the entire screen */
-    background-attachment: fixed; /* Fix the background to maintain its position during scrolling */
-}
-
 .container {
     max-width: 600px;
-    margin: 50px auto;
+    margin: 0 auto; /* Center the container horizontally */
     padding: 20px;
-    /* Remove the white background */
-    /* background-color: #fff; */
     border-radius: 0 0 10px rgba(0, 0, 0, 0.1);
     text-align: center; /* Center the content */
 }
@@ -25,14 +16,17 @@ body.index {
 h1 {
     color: #000; /* Set text color to black */
     font-size: 3em; /* Make the text larger */
+    margin-bottom: 20px; /* Add space below the heading */
 }
 
 p {
     color: #000; /* Set text color to black */
+    font-size: 1.2em; /* Adjust text size */
+    margin-bottom: 10px; /* Add space below paragraphs */
 }
 
 input[type="text"] {
-    width: calc(80%); /* Set width to 80% */
+    width: calc(80%);
     padding: 10px;
     margin-bottom: 10px;
 }
@@ -51,24 +45,28 @@ button:hover {
     cursor: pointer; /* Add cursor pointer on hover */
 }
 
-/* Add styles for the redirecting state */
-button.redirecting {
-    background-color: #ccc; /* Change button color */
+/* Additional styles for index.html background */
+body {
+    background: url('Pinkg.jpeg') repeat;
+    background-size: cover; /* Ensure the background covers the entire screen */
+    background-attachment: fixed; /* Fix the background to maintain its position during scrolling */
+    color: #000; /* Set text color to black for better visibility */
 }
 
-/* Styles for the image */
-.birthday-image {
-    display: block;
-    max-width: 100%;
-    height: auto;
-    margin: 20px auto; /* Center the image */
-    border-radius: 10px; /* Optional: add rounded corners */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: add a subtle shadow */
-}
-
-.centered-text {
-    text-align: center;
-    font-size: 3em; /* Larger font size */
-    color: #000; /* Black color */
+/* Adjustments for smaller screens */
+@media only screen and (max-width: 600px) {
+    .container {
+        padding: 10px;
+    }
+    
+    h1 {
+        font-size: 2.5em;
+        margin-bottom: 10px;
+    }
+    
+    p {
+        font-size: 1em;
+        margin-bottom: 5px;
+    }
 }
 
