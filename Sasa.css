@@ -1,8 +1,11 @@
+/* Sasa.css */
+
 body {
     margin: 0;
     padding: 0;
     background: url('Blue1.jpg') repeat;
     background-size: 25%; /* Reduce size by 75% */
+    background-blend-mode: overlay;
     background-color: #b4c2f5; /* Ensure the floral image blends with the background color */
     font-family: Arial, sans-serif;
 }
@@ -21,5 +24,68 @@ h1 {
     font-size: 2em;
     color: #333;
 }
+
+/* New styles for the poem */
+.poem {
+    text-align: center;
+    margin-bottom: 20px; /* Add some space below the poem */
+}
+
+/* New styles for the Polaroid images */
+.polaroid-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); /* Adjust minmax values as needed */
+    gap: 20px; /* Adjust the gap between images */
+    justify-items: center;
+}
+
+.polaroid {
+    width: 100%;
+    max-width: 150px; /* Set maximum width for each image */
+    position: relative;
+    cursor: pointer;
+}
+
+.polaroid img {
+    width: 100%;
+    height: auto;
+    border: 5px solid #fff; /* White border around the image */
+    border-radius: 10px; /* Rounded corners */
+}
+
+.polaroid .caption {
+    display: none; /* Hide captions */
+}
+
+/* Add styles for image enlargement */
+.enlarged-image-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent black background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+}
+
+.enlarged-image {
+    max-width: 90%;
+    max-height: 90%;
+}
+
+.close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 24px;
+}
+
+
+
 
 
