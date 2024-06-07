@@ -37,3 +37,4 @@ function createPolaroidGallery() {
 // Create polaroid gallery when page loads
 window.onload = createPolaroidGallery;
 
+

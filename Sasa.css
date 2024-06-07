@@ -1,21 +1,20 @@
-/* Sasa.css */
-
 body {
     margin: 0;
     padding: 0;
     background: url('Blue1.jpg') repeat;
-    background-size: 25%; /* Reduce size by 75% */
+    background-size: 25%;
+    background-color: #b4c2f5;
     font-family: Arial, sans-serif;
 }
 
 .container {
     text-align: center;
     padding: 50px;
+    background-color: rgba(255, 255, 255, 0.8);
     margin: 50px auto;
     max-width: 600px;
-    background-color: rgba(255, 255, 255, 0.8); /* Light background for readability */
     border-radius: 15px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
 }
 
 h1 {
@@ -26,20 +25,21 @@ h1 {
 /* New styles for the poem */
 .poem {
     text-align: center;
-    margin-bottom: 20px; /* Add some space below the poem */
+    margin-bottom: 20px;
 }
 
-/* New styles for the Polaroid images */
-.polaroid-gallery {
+/* Styles for the Polaroid images */
+#polaroid-gallery {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); /* Adjust minmax values as needed */
-    gap: 20px; /* Adjust the gap between images */
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 20px;
     justify-items: center;
+    padding: 20px;
 }
 
 .polaroid {
     width: 100%;
-    max-width: 150px; /* Set maximum width for each image */
+    max-width: 150px;
     position: relative;
     cursor: pointer;
 }
@@ -47,22 +47,22 @@ h1 {
 .polaroid img {
     width: 100%;
     height: auto;
-    border: 5px solid #fff; /* White border around the image */
-    border-radius: 10px; /* Rounded corners */
+    border: 5px solid #fff;
+    border-radius: 10px;
 }
 
 .polaroid .caption {
-    display: none; /* Hide captions */
+    display: none;
 }
 
-/* Add styles for image enlargement */
+/* Styles for image enlargement */
 .enlarged-image-container {
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent black background */
+    background-color: rgba(0, 0, 0, 0.7);
     display: flex;
     justify-content: center;
     align-items: center;
