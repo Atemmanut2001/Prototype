@@ -5,6 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Girl in the Light Blue Sweatshirt</title>
     <link rel="stylesheet" href="Sasa.css">
+    <style>
+        .subheading {
+            text-align: center;
+        }
+        .credit-button {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .credit-button button {
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
 </head>
 <body>
     <div class="container">
@@ -22,7 +40,19 @@
             <p>For God’s gifts are beautiful, and you are the most beautiful one.</p>
         </div>
     </div>
+
+    <!-- Subheading with emojis -->
+    <div class="subheading">
+        <h2>To more memories 💀🫶</h2>
+    </div>
+
     <div id="polaroid-gallery"></div>
+
+    <!-- Credit Button -->
+    <div class="credit-button">
+        <button onclick="window.location.href='Credit.html'">&#x27A1;&#xFE0F;</button>
+    </div>    
+
     <div id="modal">
         <img id="modal-image" class="enlarged-image">
         <span id="close-modal" class="close-button">&times;</span>
@@ -30,6 +60,3 @@
     <script src="Sasa.js"></script>
 </body>
 </html>
-
-
-
