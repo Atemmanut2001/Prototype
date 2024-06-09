@@ -14,8 +14,10 @@
             height: 100vh;
             margin: 0;
             background-image: url('Petals.jpg');
-            background-size: cover;
-            color: white;
+            background-size: contain; /* Use contain to maintain the image's aspect ratio */
+            background-repeat: no-repeat; /* Prevent the image from repeating */
+            background-position: center center; /* Center the image */
+            color: black; /* Change the text color to black */
         }
         .message {
             text-align: center;
@@ -23,6 +25,7 @@
         }
         .emoji {
             font-size: 36px;
+            display: inline; /* Ensure emojis display inline with text */
         }
         img {
             width: 50%; /* Adjust the width as needed */
@@ -32,7 +35,7 @@
 </head>
 <body>
     <div class="message">
-        <h1>Yalla khalas😂👍, have a blessed day🫶. I've run out of ideas💀</h1>
+        <h1>Yalla khalas 😂👍, have a blessed day 🫶. I've run out of ideas 💀</h1>
     </div>
     <img src="SB26.jpg" alt="SB26">
 </body>

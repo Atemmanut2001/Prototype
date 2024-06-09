@@ -8,6 +8,13 @@
     <style>
         .subheading {
             text-align: center;
+            margin-bottom: 20px; /* Add margin below the subheading */
+        }
+        .subheading-container {
+            display: inline-block; /* Ensure the container only wraps the text */
+            background-color: #f0f0f0; /* Background color for the subheading container */
+            padding: 5px 10px; /* Add some padding to the container */
+            border-radius: 5px; /* Add border radius for rounded corners */
         }
         .credit-button {
             text-align: center;
@@ -43,7 +50,9 @@
 
     <!-- Subheading with emojis -->
     <div class="subheading">
-        <h2>To more memories💀🫶</h2>
+        <div class="subheading-container"> <!-- Container for the subheading -->
+            <h2>To more memories💀🫶</h2>
+        </div>
     </div>
 
     <div id="polaroid-gallery"></div>
