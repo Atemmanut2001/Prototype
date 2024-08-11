@@ -27,7 +27,6 @@ body {
     display: flex;
     flex-direction: column; /* Stack image and caption vertically */
     align-items: center;
-    padding-bottom: 10px; /* Space for the caption */
     background: #fff; /* Ensure background is white */
 }
 
@@ -44,6 +43,7 @@ body {
     padding: 5px; /* Space around the text */
     background: #fff; /* Same white as border to blend in */
     border-top: 1px solid #ddd; /* Optional: adds a subtle border between image and caption */
+    margin-top: 5px; /* Adjust spacing between image and caption */
 }
 
 /* Styles for image enlargement */
