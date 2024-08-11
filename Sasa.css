@@ -20,14 +20,13 @@ body {
 .polaroid {
     width: 100%;
     max-width: 150px;
-    position: relative;
-    cursor: pointer;
-    border: 5px solid #fff; /* White border around the image */
-    border-radius: 10px; /* Rounded corners for the border */
     display: flex;
     flex-direction: column; /* Stack image and caption vertically */
     align-items: center;
+    border: 5px solid #fff; /* White border around the image */
+    border-radius: 10px; /* Rounded corners for the border */
     background: #fff; /* Ensure background is white */
+    overflow: hidden; /* Ensure content fits within border */
 }
 
 .polaroid img {
@@ -43,7 +42,7 @@ body {
     padding: 5px; /* Space around the text */
     background: #fff; /* Same white as border to blend in */
     border-top: 1px solid #ddd; /* Optional: adds a subtle border between image and caption */
-    margin-top: 5px; /* Adjust spacing between image and caption */
+    width: 100%; /* Ensure the caption spans the full width */
 }
 
 /* Styles for image enlargement */
