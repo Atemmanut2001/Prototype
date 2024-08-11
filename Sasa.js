@@ -17,9 +17,9 @@ const imageNames = [
 
 // List of captions
 const captions = [
-    "The most beautiful girl I know 🫰", "Most intelligent 🧠", "Short, so therefore cute 🙃", 
+    "The most beautiful girl I know 🫠", "Most intelligent 🧠", "Short, so therefore cute 🙃", 
     "Religious, we love a girl who loves God", "Very kind", "Polite (even though you can get very rude when you're upset)", 
-    "Empathetic", "Considerate", "Compassionate 🪷", "Dresses nicely, always eye catching (even breath taking)", 
+    "Empathetic", "Considerate", "Compassionate 🩵", "Dresses nicely, always eye catching (even breath taking)", 
     "Has many hobbies", "Very good at math (I want my wife to teach our kids math)", "Very ambitious and goal driven (the future is very bright for you)", 
     "Best conversationalist I know", "I love the cute little gap between your lower teeth", 
     "Doesn't care for other people's opinions", "Can't be peer pressured or lead astray from your values and beliefs", 
@@ -27,11 +27,11 @@ const captions = [
     "Cute Almond shaped eyes 👀", "Nice lips (I wanna kiss them) 😗", "Can draw clothes and literally stitch them together", 
     "Loves her family and takes care of her brother (that's very attractive)", 
     "Very good at cooking 👩🏿‍🍳", "Very responsible", "Hygienic", "You smell GOOD (I think you prolly taste good too) 🫰", 
-    "Very photogenic 📸", "Academic leader 🫰🧠", "Haboba, but young-spirit 👵🏾", "Trustworthy (75%) 🙂", 
-    "Reliable 🫲", "Bisexual 💀", "Doesn't hold grudges", "Respectful", "Irresistible 🫱", 
-    "Elegant", "Funny", "Thoughtful", "Always takes initiative", "Magnetic", "Unique", 
+    "Very photogenic 📸", "Academic leader 🫡🧠", "Haboba, but young-spirit 👵🏾", "Trustworthy (75%) 🙂", 
+    "Reliable 🫂", "Bisexual 💀", "Doesn't hold grudges", "Respectful", "Irresistible 😗", 
+    "Elegant 🌹", "Funny", "Thoughtful", "Always takes initiative", "Magnetic", "Unique", 
     "Confident", "Playful", "Humble 🤔", "Creative", "Devoted", "Innocent 👼🏾", 
-    "Peaceful", "Honest", "Supportive", "Captivating", "Gentle", "Forgiving", 
+    "Peaceful 💐", "Honest", "Supportive", "Captivating", "Gentle", "Forgiving", 
     "Sincere", "Gorgeous", "Kind", "Strong 💪🏾", "Always has the best hairstyle", 
     "Enlightened 🧘🏾‍♀️", "Resourceful", "Timely", "Curious to learn"
 ];
